@@ -1,0 +1,36 @@
+# User Management Screen
+
+## Requirements
+
+The User Management Screen is a web-based interface that allows administrators to manage user accounts. The screen should provide the following functionality:
+
+1. Display a list of existing user accounts.
+2. Add new user accounts ; get some informations such as username, display name, phone, email, user roles (dropdown menu includes guest, admin, SuperAdmin options), enable user option.
+3. Filter user accounts based on various criteria such as their emails, user names, IDs or enabled users etc.
+4. Validate input data and display appropriate error messages.
+5. Provide a user-friendly and intuitive interface.
+
+## UI Components
+
+The User Management Screen consists of the following UI components:
+
+1. In header add user button, hide disabled user option via checkbox, and save user button.
+2. User List: A table displaying the list of existing user accounts. Each column(4) represents a user account and contains relevant information such as ID, username, email, enabled information.
+3. Add User Form: A form that allows administrators to add a new user account. It should include input fields for username, display name, phone, and email, user roles (dropdown menu includes guest, admin, superAdmin options, also there is an enabling option via checbox.
+4. Edit User Form: A form that allows administrators to edit an existing user account. It should display the current values of the user account and allow administrators to modify the username, email, password, and role.
+5. Delete User Confirmation Modal: A modal dialog that prompts administrators to confirm the deletion of a user account. It should display the username and ask for confirmation before proceeding with the deletion.
+6. Filterin Options: Filter user accounts based on criteria such as ID, username, email, or enabling option. It should include input fields and dropdowns for selecting search criteria.
+7. Pagination Controls: Controls that allow administrators to navigate through the list of user accounts. It should include buttons for navigating to the previous and next pages, as well as an input field for directly entering a page number.
+
+## Page Behavior
+
+When the User Management Screen is loaded, the following should occur:
+
+1. The User List should be displayed, showing the first page of user accounts.
+2. The Add User Form should be hidden initially it will open when it's clicked add user button.
+3. Administrators can filter user accounts using the Filter Controls.
+4. Administrators can navigate through the user account list using the Pagination Controls.
+5. Administrators can click on a user account in the User List to open the Edit User Form and modify the user account details.
+6. Administrators can click on the "Add User" button to open the Add User Form and create a new user account.
+7. Administrators can click on the "ennabled" checkbox at the bottom of new user page.
+
